@@ -104,7 +104,9 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function multiplyArray(multArr) { //eslint-disable-line
+
   console.log (multArr);
+
   for (let i = 0; i < multArr.length; i++) {
     let firstProduct = multiply(multArr[0], multArr[1])[0];
     let finalProduct = multiply(firstProduct, multArr[2])[0];
